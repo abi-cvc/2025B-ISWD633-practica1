@@ -30,6 +30,7 @@ docker start <nombre contenedor o identificador>
 ```
 Iniciar el contenedor srv-web 
 # COMPLETAR
+docker start srv-web
 
 ### Listar los contenedores ejecutándose
 ```
@@ -52,6 +53,7 @@ docker run --name <nombre contenedor> <nombre imagen>:<tag>
 
 Crear y ejecutar inmediatamente el contenedor **srv-web2** usando la imagen nginx:alpine
 # COMPLETAR
+docker run --name srv-web2 nginx:alpine
 
 **¿Qué sucede luego de la ejecución del comando?**
 # COMPLETAR  
@@ -67,6 +69,10 @@ docker run -d --name <nombre contenedor> <nombre imagen>:tag
 ```
 Crear y ejecutar inmediatamente el contenedor **srv-web3** en modo detach usando la imagen nginx:alpine
 # COMPLETAR
+
+docker run -d --name srv-web3 nginx:alpine
+<img width="582" height="50" alt="image" src="https://github.com/user-attachments/assets/e6063514-68e1-43ad-98cd-11f85b6c367a" />
+
 
 ### Para eliminar un contenedor
 
@@ -86,11 +92,16 @@ docker rm -f <nombre contenedor>
 ```
 Eliminar el contenedor **srv-web3** 
 # COMPLETAR
+docker rm -f srv-web3
 
 Verificar que el contenedor que se eliminó
 # COMPLETAR
+<img width="1004" height="142" alt="image" src="https://github.com/user-attachments/assets/ba2451ae-80f2-41cf-b432-4ffa48d3008f" />
 
 ### Para inspecionar un contenedor 
 
 Inspeccionar el contenedor **srv-web** 
 # COMPLETAR
+docker inspect srv-web
+<img width="1024" height="528" alt="image" src="https://github.com/user-attachments/assets/ccec9700-9ced-48cc-bbaa-2a0f20184cac" />
+
