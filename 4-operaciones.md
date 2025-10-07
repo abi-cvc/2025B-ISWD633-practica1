@@ -2,7 +2,7 @@
 
 ### Ejecutar un comando en un contenedor de Docker en ejecución
 ```
-docker exec <nombre contenedor> <comando> <argumentos opcionales>
+c <nombre contenedor> <comando> <argumentos opcionales>
 ```
 # COMPLETAR
 ### ¿Para qué se usa el comando ls?
@@ -10,6 +10,10 @@ docker exec <nombre contenedor> <comando> <argumentos opcionales>
 ### Usar el contenedor de jenkins creado previamente y ejecutar el comando ls con el argumento -l
 # COMPLETAR
 # COLOCAR UNA CAPTURA DE PANTALLA
+<img width="1123" height="766" alt="image" src="https://github.com/user-attachments/assets/f54fb404-dc44-4f0e-816b-bee5766f59d6" />
+
+<img width="1348" height="767" alt="image" src="https://github.com/user-attachments/assets/4dd6cf4e-6dad-4d29-909b-d8df9ab8dfd5" />
+
 
 ### Para ejecutar un shell interactivo en un contenedor de Docker especificado.
 El comando **docker exec** te permite acceder a la sesión shell de un contenedor en ejecución, estarás dentro del contenedor y podrás ejecutar comandos como si estuvieras en una terminal normal. 
@@ -44,6 +48,8 @@ Ejecutar
 whoami
 ```
 # COLOCAR UNA CAPTURA DE PANTALLA
+<img width="685" height="154" alt="image" src="https://github.com/user-attachments/assets/4ee361e5-7fe2-4153-92c2-53be474810d8" />
+
 
 **Si se visualiza el mensaje command not found, considerar**
 El problema se debe a que no se ha asignado un terminal de salida al contenedor al ejecutar el comando. Cuando usas docker exec -i jenkins-server /bin/bash en Windows, el comando se ejecuta pero no hay un terminal asignado para mostrar la salida del comando ls.
@@ -66,6 +72,12 @@ docker exec -it <nombre contenedor> <programa o comando>
 # COMPLETAR
 
 ### Colocar una captura de pantalla de la ventana que aparece después de colocar la contraseña.
+<img width="1663" height="877" alt="image" src="https://github.com/user-attachments/assets/71e52bca-0dd0-4a22-99f4-d8ecb5c4a9f8" />
+<img width="1629" height="1137" alt="image" src="https://github.com/user-attachments/assets/c043797a-9ac4-4760-b55a-5602697ac664" />
+<img width="1567" height="1151" alt="image" src="https://github.com/user-attachments/assets/3d811a27-7ebf-4542-baa8-94545942ed61" />
+
+
+
 
 **Para este punto no es necesario continuar con la instalación de Jenkins**
 
