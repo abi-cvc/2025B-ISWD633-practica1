@@ -1,1 +1,1 @@
-
+Luego de hacer esta práctica aprendí a manjear los contenedores de docker, ya que durante las practicas pudimos ver las imágenes que se almacenan en Docker Hub y finalmente nos enfocamos en la ejecución del contenedor de Jenkins. Aprendi los comands de docker y entiendo que es importante conocer los comandos para trabajar con contenedores en ejecució e interactuar con el sistema de archivos. Me sorprendió la diferencia entre usar el parámetro -i y -it que permiten abrir una sesión interactiva bidireccional para ejecutar comandos dentro del cmd.
